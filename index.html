@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API CLIMA</title>
+  </head>
+  <body>
+    <main class="card-api">
+      <div class="api-conteudo-item">
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Pesquisar"
+            name="cidade"
+            id="cidade"
+          />
+          <button>
+            <img
+              src="/imagens/search_FILL0_wght400_GRAD0_opsz24 (1).svg"
+              alt="icone pesquisar"
+            />
+          </button>
+        </div>
+        <div class="conteudo-infos">
+          <div class="block">
+            <img
+              src="/imagens/location_on_FILL0_wght400_GRAD0_opsz24 (1).svg"
+              alt="Icone Local"
+            />
+            <span class="cidade"></span>
+          </div>
+          <div class="block">
+            <span class="graus"></span>
+            <span>°C</span>
+          </div>
+          <div class="block">
+            <span class="clima"></span>
+            <img src="" class="whater-element"/>
+          </div>
+          <div class="block">
+            <div class="block margin-left">
+              <img
+                src="/imagens/humidity_low_FILL0_wght400_GRAD0_opsz24.svg"
+                alt="Umidade"
+              />
+              <span class="Umidade"></span>
+              <span>%</span>
+            </div>
+            <div class="block">
+              <img
+                src="/imagens/airwave_FILL0_wght400_GRAD0_opsz24.svg"
+                alt="Umidade"
+              />
+              <span class="ventos"></span>
+              <span>Km/h</span>
+            </div>
+            
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
